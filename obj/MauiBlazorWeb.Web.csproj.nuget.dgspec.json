@@ -1,0 +1,143 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/jamesjackson/Desktop/CurrentShit/MauiBlazorWeb/MauiBlazorWeb.Web/MauiBlazorWeb.Web.csproj": {}
+  },
+  "projects": {
+    "/Users/jamesjackson/Desktop/CurrentShit/MauiBlazorWeb/MauiBlazorWeb.Shared/MauiBlazorWeb.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jamesjackson/Desktop/CurrentShit/MauiBlazorWeb/MauiBlazorWeb.Shared/MauiBlazorWeb.Shared.csproj",
+        "projectName": "MauiBlazorWeb.Shared",
+        "projectPath": "/Users/jamesjackson/Desktop/CurrentShit/MauiBlazorWeb/MauiBlazorWeb.Shared/MauiBlazorWeb.Shared.csproj",
+        "packagesPath": "/Users/jamesjackson/.nuget/packages/",
+        "outputPath": "/Users/jamesjackson/Desktop/CurrentShit/MauiBlazorWeb/MauiBlazorWeb.Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jamesjackson/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.Web": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Radzen.Blazor": {
+              "target": "Package",
+              "version": "[4.32.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/jamesjackson/Desktop/CurrentShit/MauiBlazorWeb/MauiBlazorWeb.Web/MauiBlazorWeb.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jamesjackson/Desktop/CurrentShit/MauiBlazorWeb/MauiBlazorWeb.Web/MauiBlazorWeb.Web.csproj",
+        "projectName": "MauiBlazorWeb.Web",
+        "projectPath": "/Users/jamesjackson/Desktop/CurrentShit/MauiBlazorWeb/MauiBlazorWeb.Web/MauiBlazorWeb.Web.csproj",
+        "packagesPath": "/Users/jamesjackson/.nuget/packages/",
+        "outputPath": "/Users/jamesjackson/Desktop/CurrentShit/MauiBlazorWeb/MauiBlazorWeb.Web/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jamesjackson/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/jamesjackson/Desktop/CurrentShit/MauiBlazorWeb/MauiBlazorWeb.Shared/MauiBlazorWeb.Shared.csproj": {
+                "projectPath": "/Users/jamesjackson/Desktop/CurrentShit/MauiBlazorWeb/MauiBlazorWeb.Shared/MauiBlazorWeb.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
